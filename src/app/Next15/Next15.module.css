@@ -48,6 +48,14 @@
   margin: 36px 0 24px 0;
   width: 100%;
   max-width: 420px;
+  align-items: center;
+}
+
+.buttons a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .buttons button {
@@ -62,6 +70,11 @@
   cursor: pointer;
   transition: background 0.2s, box-shadow 0.2s;
   font-weight: 500;
+  width: 100%;
+  max-width: 420px;
+  min-width: 220px;
+  text-align: center;
+  white-space: normal;
 }
 
 .buttons button:hover {
