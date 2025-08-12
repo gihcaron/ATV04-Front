@@ -41,6 +41,7 @@ export default function Home() {
   ];
   return (
     <div className={styles.page}>
+
       <h1 className={styles.title}>Conheça nossa equipe:</h1>
       <div className={styles.cardsContainer}>
         {integrantes.map((integrante) => (
@@ -62,6 +63,7 @@ export default function Home() {
           </div>
         ))}
       </div>
+
     </div>
   );
 }

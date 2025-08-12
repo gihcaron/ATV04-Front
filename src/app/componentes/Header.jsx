@@ -11,7 +11,7 @@ export default function Header() {
         
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Framework</a>
+            <a href="/routes/frameworks" className={styles.navLink}>Framework</a>
           </li>
           <li className={styles.navItem}>
             <a href="#" className={styles.navLink}>Meta-framework</a>
