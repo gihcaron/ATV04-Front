@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-    <h1 className="">oi</h1>   
+    <div>
+    <h1 >oi</h1>
     </div>
   );
 }
