@@ -19,7 +19,7 @@ export default function Header() {
             <a href="#" className={styles.navLink}>Bibliotecas de Estilos</a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Next.js 15</a>
+            <a href="/Next15" className={styles.navLink}>Next.js 15</a>
           </li>
           <li className={styles.navItem}>
             <a href="#" className={styles.navLink}>App Router</a>
