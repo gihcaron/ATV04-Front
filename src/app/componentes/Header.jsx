@@ -1,10 +1,34 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./Header.module.css";
 
-export default function Home() {
+export default function Header() {
   return (
-    <div>
-    <h1 >oi</h1>
-    </div>
+    <header className={styles.header}>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>
+          <span className={styles.logoText}> Mini Wiki Tech</span>
+        </div>
+        
+        <ul className={styles.navList}>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>Framework</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>Meta-framework</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>Bibliotecas de Estilos</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>Next.js 15</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>App Router</a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>Raiz do Projeto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
