@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -22,7 +23,7 @@ export default function Header() {
             <a href="/Next15" className={styles.navLink}>Next.js 15</a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>App Router</a>
+            <Link href="/routes/AppRouter" className={styles.navLink}>App Router</Link>
           </li>
           <li className={styles.navItem}>
             <a href="#" className={styles.navLink}>Raiz do Projeto</a>
