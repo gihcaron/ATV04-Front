@@ -12,6 +12,19 @@
     padding: 2rem;
 }
 
+.carousel {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 2rem;
+}
+
+.cardsWrapper {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    min-width: max-content;
+}
+
 .cardsContainer {
     display: flex;
     gap: 2rem;
@@ -19,13 +32,14 @@
 }
 
 .card {
-    flex: 1;
+    flex: 0 0 300px;
     background: white;
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 4px 6px #850e3679;
     border: 1px solid #e5e7eb;
     transition: transform 0.2s, box-shadow 0.2s;
+    min-height: 200px;
 }
 
 .card:hover {
