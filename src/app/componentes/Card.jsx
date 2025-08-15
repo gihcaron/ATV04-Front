@@ -4,11 +4,17 @@ import React from 'react';
 import styles from './Card.module.css';
 
 const Card = ({ title, description }) => {
+  // Se description for string, renderiza dentro de <p>, senão renderiza diretamente
+  const isString = typeof description === 'string';
   return (
     <div className={styles.card}>
       <div className={styles.cardContent}>
         <h3 className={styles.cardTitle}>{title}</h3>
-        <p className={styles.cardDescription}>{description}</p>
+        {isString ? (
+          <p className={styles.cardDescription}>{description}</p>
+        ) : (
+          <div className={styles.cardDescription}>{description}</div>
+        )}
       </div>
     </div>
   );
