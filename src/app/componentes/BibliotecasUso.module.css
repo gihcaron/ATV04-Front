@@ -1,0 +1,33 @@
+/* Motivos para usar */
+
+.MotivosParaUsar{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffabc7cb;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1%;
+    padding: 2rem;
+    gap:0.5rem;
+    border-radius: 10px;
+}
+
+.BibliotecasTitles{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #850e36cb;
+    margin-bottom: 1rem;
+}
+
+.Negrito{
+    font-weight: 700;
+    color: #850e36cb;
+}
+
+.contentText{
+    font-size: 1rem;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+}

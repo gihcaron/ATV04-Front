@@ -1,0 +1,62 @@
+.ProseContras {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #850e36cb 0%, #ee6983 100%);
+    justify-content: center;
+    margin: 1rem 4rem;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    border-radius: 16px;
+}
+
+.ProseContras:hover {
+    box-shadow: 0 12px 32px rgba(133, 14, 54, 0.18);
+}
+
+.ProsContainer, .ContrasContainer {
+    display: flex;
+    flex: 1 20rem;
+    flex-direction: column;
+    background: #fff;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 1rem;
+    gap: 1rem;    
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(238, 105, 131, 0.08);
+    transition: box-shadow 0.3s;
+}
+
+.ProsContainer:hover{
+    transform: scale(1.02);
+}
+
+.ContrasContainer:hover{
+    transform: scale(1.02);
+}
+
+
+
+@media (max-width: 900px) {
+    .ProseContras {
+        flex-direction: column;
+    }
+    .ProsContainer, .ContrasContainer {
+        padding: 1.5rem 0.5rem;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ProseContras {
+        padding: 1rem 0.2rem;
+        gap: 0.5rem;
+        border-radius: 8px;
+    }
+    .ProsContainer, .ContrasContainer {
+        padding: 1rem 0.2rem;
+        border-radius: 8px;
+    }
+}
+

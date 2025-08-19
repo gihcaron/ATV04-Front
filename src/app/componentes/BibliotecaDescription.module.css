@@ -1,0 +1,28 @@
+/* Estilização */
+
+.Bibliotecas{
+      display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1%;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.BibliotecaName{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #850e36cb;
+    margin-bottom: 2%;
+}
+
+.contentText{
+    font-size: 1rem;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+}
