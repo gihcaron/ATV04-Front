@@ -14,7 +14,7 @@
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 8%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     padding: 2rem;
     border-radius: 10px;
 }
@@ -50,6 +50,19 @@
     font-weight: 300;
     color: #fff;
     margin-top: 0.5rem;
+}
+
+.author{
+    display: flex;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    gap: 1rem;
+}
+
+.authorSettings{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #850e36cb;
 }
 
 .contentContainer{
@@ -99,10 +112,5 @@
 .Negrito{
     font-weight: 700;
     color: #850e36cb;
-}
-
-.EmpresasContainer{
-   margin-left: 4rem;
-    margin-right: 4rem;
 }
 

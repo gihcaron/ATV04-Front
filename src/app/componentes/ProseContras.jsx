@@ -18,7 +18,7 @@ export default function ProseContras({ MotivoPro1, MotivoPro2, MotivoPro3, Motiv
         </div>
 
         <div className={styles.ContrasContainer}>
-          <h3 className={styles.BibliotecasTitles}>CONTRAS da Biblioteca ❌</h3>
+          <h3 className={styles.BibliotecasTitles}>Contras da Biblioteca ❌</h3>
           <p className={styles.contentText}>{MotivoCon1} </p>
           <p className={styles.contentText}>{MotivoCon2} </p>
           <p className={styles.contentText}>{MotivoCon3} </p>

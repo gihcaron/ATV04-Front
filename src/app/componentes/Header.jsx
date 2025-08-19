@@ -17,7 +17,7 @@ export default function Header() {
             <a href="#" className={styles.navLink}>Meta-framework</a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Bibliotecas de Estilos</a>
+            <a href="/routes/Bibliotecas" className={styles.navLink}>Bibliotecas de Estilos</a>
           </li>
           <li className={styles.navItem}>
             <a href="/Next15" className={styles.navLink}>Next.js 15</a>

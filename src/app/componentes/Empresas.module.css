@@ -1,0 +1,27 @@
+.EmpresasContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin-left: 4rem;
+   margin-right: 4rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   padding: 2rem;
+    background-color:  #ffc4c4;
+   border-radius: 10px;
+}
+
+.EmpresasUnderlineText{
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: #850e36cb;
+   margin-top: 0.5rem;
+}
+
+.EmpresasText{
+      font-size: 1.2rem;
+   font-weight: 200;
+   color: #850e36cb;
+   margin-top: 0.5rem;
+}
